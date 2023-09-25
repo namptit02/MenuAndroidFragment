@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanlynguoichoiFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/them"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Them" />
+
+        <Button
+            android:id="@+id/sua"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Sua" />
+
+        <Button
+            android:id="@+id/xoa"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Xoa" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
